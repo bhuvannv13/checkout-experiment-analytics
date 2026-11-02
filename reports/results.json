@@ -1,0 +1,101 @@
+{
+  "n_control": 99373,
+  "n_treatment": 99818,
+  "srm_p_value": 0.3187310844055309,
+  "conversion": {
+    "metric": "conversion_rate",
+    "control": 0.041792036066134665,
+    "treatment": 0.043980043679496685,
+    "abs_diff": 0.0021880076133620197,
+    "rel_lift": 0.052354654602124726,
+    "ci_low": 0.000408638861590344,
+    "ci_high": 0.003967376365133696,
+    "p_value": 0.015956416509403982
+  },
+  "revenue_per_user": {
+    "metric": "revenue_per_user",
+    "control": 3.042474817103238,
+    "treatment": 3.217164038550161,
+    "abs_diff": 0.17468922144692334,
+    "rel_lift": 0.057416817541072106,
+    "ci_low": 0.026356765329558274,
+    "ci_high": 0.3230216775642884,
+    "p_value": 0.020986902828912978
+  },
+  "revenue_per_user_bootstrap_ci": [
+    0.028247178370440506,
+    0.3242046604789372
+  ],
+  "revenue_per_user_cuped": {
+    "metric": "revenue_per_user_cuped",
+    "control": 3.0411303570377832,
+    "treatment": 3.218502504859689,
+    "abs_diff": 0.1773721478219059,
+    "rel_lift": 0.05832441460834828,
+    "ci_low": 0.030204692827750207,
+    "ci_high": 0.32453960281606165,
+    "p_value": 0.018165739525546155
+  },
+  "cuped_theta": 0.09808756501621353,
+  "cuped_variance_reduction": 0.015639102181164932,
+  "segments": [
+    {
+      "device": "desktop",
+      "users": 70156,
+      "metric": "conversion_desktop",
+      "control": 0.05069636296317393,
+      "treatment": 0.053017548865744044,
+      "abs_diff": 0.0023211859025701123,
+      "rel_lift": 0.045786043946707426,
+      "ci_low": -0.0009604068476612789,
+      "ci_high": 0.005602778652801503,
+      "p_value": 0.1656369969021012,
+      "p_holm": 0.4969109907063036
+    },
+    {
+      "device": "mobile",
+      "users": 113362,
+      "metric": "conversion_mobile",
+      "control": 0.03635557918993176,
+      "treatment": 0.03850949128136689,
+      "abs_diff": 0.002153912091435131,
+      "rel_lift": 0.05924570972126422,
+      "ci_low": -5.589395787185432e-05,
+      "ci_high": 0.004363718140742117,
+      "p_value": 0.056118949379809116,
+      "p_holm": 0.22447579751923646
+    },
+    {
+      "device": "tablet",
+      "users": 11832,
+      "metric": "conversion_tablet",
+      "control": 0.041228367831693244,
+      "treatment": 0.04176490400808353,
+      "abs_diff": 0.0005365361763902884,
+      "rel_lift": 0.01301376223721959,
+      "ci_low": -0.0066505009398302875,
+      "ci_high": 0.007723573292610864,
+      "p_value": 0.8836732622402397,
+      "p_holm": 0.8836732622402397
+    },
+    {
+      "device": "unknown",
+      "users": 3841,
+      "metric": "conversion_unknown",
+      "control": 0.04045058883768561,
+      "treatment": 0.048199152542372885,
+      "abs_diff": 0.007748563704687274,
+      "rel_lift": 0.19155626475005375,
+      "ci_low": -0.0052778911713814,
+      "ci_high": 0.02077501858075595,
+      "p_value": 0.24309321036328968,
+      "p_holm": 0.4969109907063036
+    }
+  ],
+  "power": {
+    "baseline_conversion": 0.041792036066134665,
+    "mde_rel_at_current_n": 0.060182158150081766,
+    "n_per_arm_for_3pct_lift": 405642,
+    "n_per_arm_for_5pct_lift": 147405
+  }
+}

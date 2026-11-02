@@ -1,0 +1,4 @@
+data/raw/
+data/warehouse.db
+__pycache__/
+*.pyc
